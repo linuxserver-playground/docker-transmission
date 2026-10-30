@@ -11,6 +11,15 @@ upstream:
     type: alpine_apk
     repo_url: http://dl-cdn.alpinelinux.org/alpine/edge/community/
     package: transmission-daemon
+  notes:
+    type: github_release
+    repo: transmission/transmission
+    transform:
+    - regex: -r\d+$
+      replace: ''
+  sponsor:
+  - name: Donate (PayPal, one-time or monthly)
+    url: https://transmissionbt.com/donate/
 
 release:
   branch: master
