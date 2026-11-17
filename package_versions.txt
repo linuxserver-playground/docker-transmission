@@ -1,5 +1,5 @@
 NAME                    VERSION           TYPE  
-7zip                    26.05-r0          apk   
+7zip                    26.06-r0          apk   
 acl-libs                2.3.2-r1          apk   
 alpine-baselayout       3.7.2-r1          apk   
 alpine-baselayout-data  3.7.2-r1          apk   
@@ -48,7 +48,7 @@ musl                    1.2.6-r6          apk
 musl-utils              1.2.6-r6          apk   
 ncurses-terminfo-base   6.6_p20261017-r0  apk   
 netcat-openbsd          1.234.1-r0        apk   
-nghttp2-libs            1.70.0-r0         apk   
+nghttp2-libs            1.71.0-r0         apk   
 oniguruma               6.9.10-r0         apk   
 procps-ng               4.0.7-r2          apk   
 pyc                     3.14.10-r1        apk   
